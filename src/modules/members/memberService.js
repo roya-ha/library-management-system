@@ -24,3 +24,7 @@ const members = [
     joinedDate: "2026-11-20",
   },
 ];
+
+export function getAllMembers() {
+  return members;
+}
