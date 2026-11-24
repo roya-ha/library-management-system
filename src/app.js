@@ -1,3 +1,1 @@
-import { getAllMembers } from "./modules/members/memberService.js";
-const membersList = getAllMembers();
-console.log(membersList);
+import { getAllMembers, getMemberById } from "./modules/members/memberService.js";

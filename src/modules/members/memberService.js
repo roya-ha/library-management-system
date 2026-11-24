@@ -28,3 +28,7 @@ const members = [
 export function getAllMembers() {
   return members;
 }
+
+export function getMemberById(id) {
+  return members.find(m => m.id === id) || null;
+}
