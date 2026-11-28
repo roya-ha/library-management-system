@@ -1,4 +1,5 @@
-import {ask, closeInput } from "./utils/input.js";
+import { ask, closeInput } from "./utils/input.js";
+import { login } from "./auth.js";
 
 function showMenu() {
     console.log("=====================================");
